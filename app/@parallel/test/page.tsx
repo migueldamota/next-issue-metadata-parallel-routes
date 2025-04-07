@@ -1,7 +1,7 @@
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-    title: "Test",
+    title: "Test (parallel)",
 }
 
 export default function Test() {

@@ -6,16 +6,16 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-  routes,
+  parallel,
 }: Readonly<{
   children: React.ReactNode;
-  routes: React.ReactNode;
+  parallel: React.ReactNode;
 }>) {
   return (
     <html lang="en">
       <body>
-        {/* {children} */}
-        {routes}
+        {children}
+        {/* {parallel} */}
       </body>
     </html>
   );
